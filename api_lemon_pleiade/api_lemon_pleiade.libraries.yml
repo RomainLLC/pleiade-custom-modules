@@ -1,0 +1,18 @@
+api_lemon_pleiade_test_js:
+  js:
+    js/api_lemon_pleiade.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings
+    - core/jquery.once
+    - core/drupal.ajax
+    - core/views.ajax
+    - core/jquery.ui
+    - core/jquery.ui.effects.core
+    - core/jquery.ui.autocomplete
+api_lemon_pleiade_test_css:
+  version: 1.x
+  css:
+    theme:
+      css/api_lemon_pleiade.css: {}

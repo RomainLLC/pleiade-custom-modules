@@ -1,0 +1,12 @@
+name: API Pléiade SSO LemonLDAP
+type: module
+description: 'API connector for Pléiade dashboard and compatible apps with LemonLDAP SSO'
+package: Pleiade LemonLDAP
+# version: 8.x +
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+# Information 
+version: '1.0.x-dev'
+project: 'api_lemon_pleiade'
+datestamp: 1624364473

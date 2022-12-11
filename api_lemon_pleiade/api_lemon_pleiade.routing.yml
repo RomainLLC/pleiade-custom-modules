@@ -1,0 +1,16 @@
+api_lemon_pleiade.settings:
+  path: '/admin/config/api_lemon_pleiade/settings'
+  defaults:
+    _form: '\Drupal\api_lemon_pleiade\Form\PleiadeSSOapiFieldsConfig'
+    _title: 'API LemonLDAP Pléiade Settings'
+  requirements:
+    _permission: 'administer site configuration'
+api_lemon_pleiade.pleiade_data_autocomplete:
+  path: '/api_lemon_pleiade/pleiade-data-autocomplete'
+  defaults:
+    _controller: '\Drupal\api_lemon_pleiade\Controller\PleiadeAjaxController::pleiade_data_autocomplete'
+    _title: 'Search'
+    _format: json
+  requirements:
+    _access: 'TRUE'
+
